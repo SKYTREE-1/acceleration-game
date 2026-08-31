@@ -1,24 +1,25 @@
 
 > このページを開く [https://skytree-1.github.io/acceleration-game/](https://skytree-1.github.io/acceleration-game/)
+```template
 
-## 拡張機能として使用
+```
 
-このリポジトリは、MakeCode で **拡張機能** として追加できます。
+[チュートリアル全体を表示](https://skytree-1.github.io/acceleration-game/tutorial)
 
-* [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
-* **新しいプロジェクト** をクリックしてください
-* ギアボタンメニューの中にある **拡張機能** をクリックしてください
-* **https://github.com/skytree-1/acceleration-game** を検索してインポートします。
+# 配列の要素の最大値を求めるプログラム
 
-## このプロジェクトを編集します
+配列の要素の最大値を求めるプログラムを作りながら、
+条件分岐や繰り返しについて学ぶチュートリアルです。
 
-MakeCode でこのリポジトリを編集します。
+## このチュートリアルで学ぶこと
 
-* [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
-* **読み込む** をクリックし、 **URLから読み込む...** をクリックしてください
-* **https://github.com/skytree-1/acceleration-game** を貼り付けてインポートをクリックしてください
+- 配列の要素の最大値を見つける方法
+- 繰り返し処理を使って調べる方法
 
-#### メタデータ (検索、レンダリングに使用)
+## チュートリアル
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+詳しい手順は `tutorial.md` を参照してください。
+
+## 実行
+
+* [チュートリアルを実行](https://makecode.microbit.org/#tutorial:github:SKYTREE-1/acceleration-game/tutorial) 
