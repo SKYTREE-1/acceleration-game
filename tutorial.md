@@ -411,4 +411,6 @@ input.onButtonPressed(Button.B, function () {
 
 ## STEP8 発展 @showdialog
 もっと工夫をしてみてください。
+
+
 ![Let's Make a Function!](https://skytree-1.github.io/acceleration-game/images/img08.png)
