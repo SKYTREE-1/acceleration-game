@@ -406,9 +406,9 @@ input.onButtonPressed(Button.B, function () {
 
 
 
-![Let's Make a Function!](https://skytree-1.github.io/acceleration-game/images/image07.png)
+![Let's Make a Function!](https://skytree-1.github.io/acceleration-game/images/img07.png)
 
 
 ## STEP8 発展 @showdialog
 もっと工夫をしてみてください。
-![Let's Make a Function!](https://skytree-1.github.io/acceleration-game/images/image08.png)
+![Let's Make a Function!](https://skytree-1.github.io/acceleration-game/images/img08.png)
