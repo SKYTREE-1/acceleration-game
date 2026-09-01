@@ -1,4 +1,4 @@
-```templates
+```template
 function getMax (array: number[]) {
     max = array[0]
     i = 1
