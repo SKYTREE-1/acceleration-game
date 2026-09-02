@@ -51,7 +51,7 @@ micro:bit では、x, y, z 方向の加速度を利用できますが、今回�
 
 ![動作中の加速度の変化](https://skytree-1.github.io/acceleration-game/images/img03.png)
 
-今回は、配列の要素の最大値を求める関数は ``||function:getMax()||`` を利用します。
+今回は、配列の要素の最大値を求める関数は ``||functions:getMax()||`` を利用します。
 また、結果を入れる配列は data という配列を利用します。
 
 ## STEP3-0 配列の初期化
@@ -311,7 +311,7 @@ input.onButtonPressed(Button.A, function () {
 ## STEP6 結果を表示する
 
 結果の数値を表示する前に、``||basic:文字列を表示||`` で「BEST:」と表示してから、``||basic:数を表示||``で、
-関数 ``||function:getMax(data)||`` を表示します。
+関数 ``||functions:getMax(data)||`` を表示します。
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -336,6 +336,18 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("BEST:")
     basic.showNumber(getMax(data))
 })
+
+function getMax (array: number[]) {
+    max = array[0]
+    i = 1
+    while (i < array.length) {
+        if (max < array[i]) {
+            max = array[i]
+        }
+        i += 1
+    }
+    return max
+}
 ```
 ## STEP6 結果を表示する（つづき）
 ここまできたら、ダウンロードして micro:bit で動かしてみよう。
@@ -372,6 +384,18 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("BEST:")
     basic.showNumber(getMax(data))
 })
+
+function getMax (array: number[]) {
+    max = array[0]
+    i = 1
+    while (i < array.length) {
+        if (max < array[i]) {
+            max = array[i]
+        }
+        i += 1
+    }
+    return max
+}
 ```
 
 ## STEP6 結果を見てみよう（発展）@showdialog
@@ -418,6 +442,18 @@ input.onButtonPressed(Button.B, function () {
         basic.showNumber(配列[カウンター])
     }
 })
+
+function getMax (array: number[]) {
+    max = array[0]
+    i = 1
+    while (i < array.length) {
+        if (max < array[i]) {
+            max = array[i]
+        }
+        i += 1
+    }
+    return max
+}
 ```
 
 ## STEP7 完成！@showdialog
